@@ -43,7 +43,7 @@ $.fn.setDefaults = function(options) {
 	var settings = {
 		attr: 'rel',
 		parentClass: 'has-value'
-	}
+	};
 	
 	// Extend default settings with user supplied data
 	$.extend(settings, options);
@@ -69,6 +69,6 @@ $.fn.setDefaults = function(options) {
 			}
 		});
 	});
-}
+};
 
 })(jQuery);
